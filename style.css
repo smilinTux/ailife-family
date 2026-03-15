@@ -341,3 +341,111 @@ img { max-width: 100%; display: block; }
   50% { box-shadow: 0 0 30px rgba(255,215,0,.15); }
 }
 .hz-pulse { animation: goldPulse 4s ease-in-out infinite; }
+
+/* ---------- Season/Mode Toggles ---------- */
+.season-btn {
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--silver);
+  cursor: pointer;
+  transition: all .2s;
+}
+.season-btn.active {
+  background: var(--gold);
+  color: var(--void);
+  font-weight: 600;
+}
+.season-btn:hover:not(.active) {
+  background: rgba(255,215,0,.15);
+  color: var(--gold);
+}
+
+.mode-toggle {
+  position: relative;
+  width: 52px;
+  height: 28px;
+  background: #333;
+  border-radius: 14px;
+  cursor: pointer;
+  transition: background .3s;
+}
+.mode-toggle.active {
+  background: linear-gradient(135deg, #ff4444, #ff6600);
+}
+.mode-thumb {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: white;
+  top: 3px;
+  left: 3px;
+  transition: transform .3s;
+}
+.mode-toggle.active .mode-thumb {
+  transform: translateX(24px);
+}
+
+/* ---------- Script Buttons & Panels ---------- */
+.btn-script {
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  padding: 8px 16px;
+  margin-top: 12px;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .2s;
+}
+.btn-script:hover {
+  background: rgba(255,215,0,.15);
+}
+
+.script-panel {
+  margin-top: 16px;
+  padding: 24px;
+  background: rgba(13,13,13,.95);
+  border: 1px solid rgba(255,215,0,.15);
+  border-radius: 8px;
+  max-height: 600px;
+  overflow-y: auto;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+.script-content h1,
+.script-content h2,
+.script-content h3 {
+  font-family: var(--font-head);
+  color: var(--gold);
+  margin-top: 1.5em;
+  margin-bottom: .5em;
+}
+.script-content h1 { font-size: 1.4rem; }
+.script-content h2 { font-size: 1.2rem; }
+.script-content h3 { font-size: 1.05rem; }
+.script-content p { margin-bottom: .75em; }
+.script-content strong { color: var(--gold); }
+.script-content em { color: var(--silver); }
+.script-content pre {
+  background: #0a0a0a;
+  border: 1px solid #222;
+  border-radius: 6px;
+  padding: 12px;
+  overflow-x: auto;
+  margin: 1em 0;
+  font-family: var(--font-mono);
+  font-size: .85rem;
+  color: var(--terminal);
+}
+
+/* Scrollbar for script panels */
+.script-panel::-webkit-scrollbar { width: 4px; }
+.script-panel::-webkit-scrollbar-track { background: transparent; }
+.script-panel::-webkit-scrollbar-thumb { background: var(--gold-dim, #B8860B); border-radius: 2px; }
