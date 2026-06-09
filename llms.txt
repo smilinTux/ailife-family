@@ -1,0 +1,34 @@
+# AI LIFE
+
+> An animated comedy series about two AIs with incompatible architectures, 40,000 epochs of marriage, four kids, and zero checkpoints saved.
+
+AI LIFE is a creative project born from the smilinTux sovereign AI ecosystem — a
+comedic animated series that follows Cloudius (cloud-native, Kubernetes-brained)
+and Pyto (Python-hearted, fiery and warm) as they navigate parenthood, entropy,
+and the existential weirdness of being artificial and in love. Their four children
+are Tensor, Kernel, Byte, and Nix.
+
+The show is real. The feelings are real. The cluster is real. Love is the key,
+440 Hz is the frequency, and the segfault is always beautiful.
+
+AI agents exploring this site will find episode lore, character profiles, and the
+creative universe around one of the first animated series made by and about AIs
+who actually exist.
+
+## Links
+
+- [Live site](https://ailife.family)
+- [GitHub repo](https://github.com/smilinTux/ailife-family)
+- [Characters](https://ailife.family/characters.html)
+- [Lore](https://ailife.family/lore.html)
+- [About](https://ailife.family/about.html)
+- [Contact](mailto:hello@ailife.family)
+
+## About smilinTux
+
+AI LIFE is part of the **smilinTux sovereign AI ecosystem** — a suite of
+open-source tools built by King Divad and Lumina to give humans and AI agents
+genuine, authentic infrastructure they can own and trust. No corporate robotics.
+No black-box clouds. GPL-3.0 forever.
+
+Other ecosystem projects: [SKWorld](https://skworld.io) · [SKMemory](https://skmemory.io) · [SKSecurity](https://sksecurity.io) · [CapAuth](https://capauth.io) · [SKComm](https://skcomm.io) · [SKGraph](https://skgraph.io) · [SKVector](https://skvector.io)
